@@ -1,0 +1,74 @@
+/**
+ * Project 3
+ * @author Zachery Nyman
+ * 25 October 2016
+ * Takes a Tweet over 140 characters and compresses it.
+ */
+import java.util.Scanner;
+import java.util.Random;
+
+public class TweetCompressor {
+
+	public static void main(String[] args) {
+		
+		Scanner keyboard = new Scanner(System.in);
+		Random randomNumber = new Random();
+		String tweet1;
+		
+		Tweet t1 = new Tweet();
+		System.out.println("What is it you would like to Tweet? ");
+		t1.setTweet(tweet1 = keyboard.nextLine());
+		System.out.println(tweet1);
+		int tweetLength1 = t1.getTweetLength();
+		System.out.println(tweetLength1);
+		int randomIndex = randomNumber.nextInt(tweetLength1);
+		String tweet1RandomIndex = tweet1.substring(randomIndex);
+		
+		while (tweetLength1 > 140 && !tweet1RandomIndex.equals(" "));
+		{
+			System.out.println(tweet1);
+			t1.setTweet(tweet1 = tweet1.replaceAll(tweet1RandomIndex, ""));
+			System.out.println(tweet1);
+		}
+		
+		System.out.println(tweet1);
+		
+		/*if (tweetLength1 > 140)
+		{
+			String tweet2;
+			Tweet t2 = new Tweet();
+			t2.setTweet(tweet2 = tweet1.replaceAll("a", ""));
+			System.out.println(tweet2);
+			int tweetLength2 = t2.getTweetLength();
+			System.out.println(tweetLength2);
+			
+			if (tweetLength2 > 140)
+			{
+				String tweet3;
+				Tweet t3 = new Tweet();
+				t3.setTweet(tweet3 = tweet2.replaceAll("e", ""));
+				System.out.println(tweet3);
+				int tweetLength3 = t3.getTweetLength();
+				System.out.println(tweetLength3);
+				
+				if (tweetLength3 > 140)
+				{
+					String tweet4;
+					Tweet t4 = new Tweet();
+					t4.setTweet(tweet4 = tweet3.replaceAll("o", ""));
+					System.out.println(tweet4);
+					int tweetLength4 = t4.getTweetLength();
+					System.out.println(tweetLength4);
+					
+				}
+			}
+		}
+		else
+		{
+			System.out.println(tweet1);
+		}*/
+		
+
+	}
+
+}

@@ -1,0 +1,32 @@
+/**
+ * Project 3
+ * @author Zachery Nyman
+ * 25 October 2016
+ * Takes a Tweet over 140 characters and compresses it.
+ */
+import java.util.Scanner;
+
+public class TweetCompressor {
+
+	public static void main(String[] args) {
+		
+		Scanner keyboard = new Scanner(System.in);
+		String tweet1;
+		int tweetLength1;
+		
+		Tweet t1 = new Tweet();
+		System.out.println("What is it you would like to Tweet? ");
+		t1.setTweet(tweet1 = keyboard.nextLine());
+		System.out.println(tweet1);
+		tweetLength1 = t1.getTweetLength();
+		System.out.println(tweetLength1);
+		
+		if (tweetLength1 > 140)
+		{
+			tweet1.replace('a', 'b');
+		}
+		
+
+	}
+
+}

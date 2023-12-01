@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="80" key="DIALOG_X_ORIGIN"/>
+		<item value="70" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item value="-1" key="dialogHeight"/>
+		<item value="-1" key="dialogWidth"/>
+		<list key="textEntries">
+		</list>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.export.ZipFile" key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID"/>
+		<item value="org.eclipse.ui.wizards.import.FileSystem" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID"/>
+		<item value="false" key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Text Files"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID"/>
+		<item value="true" key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Project5\NymanZacheryProject5.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab18\NymanZacheryLab18.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Project5\NymanZacheryProject4.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Images\NymanZacheryLab17.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab16\NymanZacheryLab16.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab13\NymanZacheryLab13.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab12\NymanZacheryLab12.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Project4\NymanZacheryProject4.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab15\NymanZacheryLab15.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab14\NymanZacheryLab14.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Project3\NymanZacheryProject3.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab11\NymanZacheryLab11.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab10\NymanZacheryLab10.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab09\NymanZacheryLab09.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab08\NymanZacheryLab08.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab07\NymanZacheryLab07.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Project2\NymanZacheryProject2.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab06\NymanZacheryLab06.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Project1\NymanZacheryProject01.zip"/>
+			<item value="C:\Users\Zache\OneDrive\Documents\College\DU\COMP 1671\Lab05\NymanZacheryLab05.zip"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,17 @@
+
+public class Tweet {
+	
+	private String originalTweet;
+	private int originalTweetLength;
+	
+	public void setTweet(String tweet)
+	{
+		originalTweet = tweet;
+	}
+	public int getTweetLength()
+	{
+		return originalTweet.length();
+	}
+			
+
+}
